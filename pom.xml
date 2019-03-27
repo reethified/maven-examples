@@ -4,8 +4,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-        <groupId>com.ts</groupId>
-        <artifactId>maven-examples</artifactId>
+        <groupId>com.ts.mvnexamples</groupId>
+        <artifactId>mvnexamples-root</artifactId>
         <version>1.0.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
@@ -24,9 +24,9 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.ts.maven-examples</groupId>
+                <groupId>com.ts.mvnexamples</groupId>
                 <artifactId>testa</artifactId>
-                <version>1.0.0-SNAPSHOT</version>
+                <version>${project.version}</version>
                 <classifier>bin</classifier>
                 <type>tar.gz</type>
             </dependency>
